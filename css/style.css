@@ -303,7 +303,35 @@ header{
 
 }
 
+.socialsi {
+    color: white;
+    font-size: 2rem;
+    margin-top: 1rem;
+    display: inline-block;
+    transition: color 0.3s ease;
+    width: auto;
+    height: 50px;
+    margin: 10px 10px 10px 10px;
+}
 
+.socialsi:hover {
+    color: #E1306C;
+}
+
+.socialsf {
+    color: white;
+    font-size: 2rem;
+    margin-top: 1rem;
+    display: inline-block;
+    transition: color 0.3s ease;
+    width: auto;
+    height: 50px;
+    margin: 10px 10px 10px 10px;
+}
+
+.socialsf:hover {
+    color: #1114df;
+}
 
 footer {
 
