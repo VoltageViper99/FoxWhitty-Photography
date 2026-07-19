@@ -62,31 +62,32 @@
             <br>
             <p>Get in contact with us if you have any questions:</p>
         </div>
-            <div class="contact-box">
+        <div class="contact-box">
 
 
-                <div class="row">
-                    <div class="column">
-                        <form action="/action_page.php">
-                            <label for="fname">First Name</label>
-                            <input type="text" id="fname" name="firstname" placeholder="Your name..">
-                            <label for="lname">Last Name</label>
-                            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-                            <label for="subject">Subject</label>
-                            <textarea id="subject" name="subject" placeholder="Write something.."
-                                style="height:170px"></textarea>
-                            <input type="submit" value="Submit">
+            <div class="row">
+                <div class="column">
+                    <form id="form">
+                        <form action="https://api.web3forms.com/submit" method="POST">
+                            <input type="hidden" name="access_key" value="8f7dbc46-546e-4cf3-8894-41181a256580">
+                            <p>Name</p>
+                            <input type="text" name="name" required>
+                            <p>Email</p>
+                            <input type="email" name="email" required>
+                            <p>Message</p>
+                            <textarea name="message" required></textarea>
+                            <button type="submit">Submit Form</button>
                         </form>
-                    </div>
-
                 </div>
+
             </div>
+        </div>
 
     </section>
 
 
 
-    
+
 
     <footer>
         <p>Follow Us On Our Socials</p>
@@ -112,7 +113,13 @@
 
 
     </footer>
-
+    <script src="js/form.js"></script>
+    <script>
+        window.onload = function () {
+            // Reset the form fields when the page loads
+            document.getElementById("form").reset();
+        };
+    </script>
 </body>
 
 </html>
