@@ -36,7 +36,49 @@ header{
 
 }
 
-.navbar ul {
+/* Dropdown container */
+.dropdown {
+    position: relative;
+}
+
+/* Hide menu by default */
+.dropdown-menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    min-width: 180px;
+
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.2);
+}
+
+/* Links */
+.dropdown-menu li a {
+    display: block;
+    padding: 12px 16px;
+    text-decoration: none;
+    color: #333;
+}
+
+/* Hover colour */
+.dropdown-menu li a:hover {
+    background: #f2f2f2;
+}
+
+/* Show menu on hover */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.navbar > ul {
 
     display: flex;
 
