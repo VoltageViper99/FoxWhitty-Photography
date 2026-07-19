@@ -305,7 +305,7 @@ header{
 
 .h2about{
     text-align: center;
-    margin-bottom: 1rem;
+    margin-bottom: 5px;
 }
 
 .socialsi {
@@ -336,6 +336,66 @@ header{
 
 .socialsf:hover {
     color: #1114df;
+}
+
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.contact-heading h2{
+text-align: center;
+display: flex;
+justify-content: center;
+padding-top: 20px;
+   
+}
+
+.contact-heading p{
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+/* Style the container/contact section */
+.contact-box {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+ 
+}
+
+
+
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
 }
 
 footer {
