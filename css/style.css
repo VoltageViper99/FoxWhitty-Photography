@@ -223,18 +223,18 @@ header{
 }
 
 
-.gallery-heading h1{
+.photo-collection h1{
     font-size: 38px;
     letter-spacing: 2px;
     
 }
 
-.gallery-heading p{
+.photo-collection p{
     font-size: 20px;
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
-.gallery-cards {
+.cards {
     display: flex;
     flex-direction: column;
     text-decoration: none;
@@ -246,14 +246,14 @@ header{
     margin: auto 5rem auto 5rem;
     border-radius: 2rem;
 }
-.gallery-preview {
+.photo-collection {
     max-width: 900px;
     margin: 4rem auto;
     text-align: center;
     gap: 2rem;
 }
 
-.gallery-preview img {
+.photo-collection img {
     width: 100%;
     max-width: 800px;
     height: 400px;
@@ -265,11 +265,11 @@ header{
 
 }
 
-.gallery-preview h2 {
+.photo-collection h2 {
     margin: 1rem 0;
 }
 
-.gallery-preview p {
+.photo-collection p {
     max-width: 700px;
     margin: 0 auto 1.5rem;
     
@@ -297,11 +297,63 @@ header{
 
 }
 
-.gallery-button:hover {
+collection-cards {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: inherit;
+    background: #fff;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,.15);
+    border-radius: 10px;
+    text-align: center;
+}
 
-    background: #ddd;
+
+.collection-photos {
+    max-width: 1000px;
+    margin: 4rem auto;
+    text-align: center;
+    gap: 2rem;
+    
+}
+
+.collection-photos img {
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    object-fit:cover;
+    display:block;
+    border-radius: 12px;
+    margin-bottom: 5rem;
+    
 
 }
+.collection-photos h1{
+    font-size: 38px;
+    letter-spacing: 2px;
+    margin-bottom: 4rem;
+    
+}
+
+.collection-photos p{
+    font-size: 20px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+
+.collection-photos h2 {
+    margin: 1rem 0;
+}
+
+.collection-photos p {
+    max-width: 700px;
+    margin: 0 auto 1.5rem;
+    
+}
+
 
 .h2about{
     text-align: center;
@@ -395,57 +447,7 @@ padding-top: 20px;
     margin-top: 10px;
 }
 
-.animals h1{
-    font-size: 38px;
-    letter-spacing: 2px;
-    
-}
 
-.animals p{
-    font-size: 20px;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-}
-.animal-collection {
-    display: flex;
-    flex-direction: column;
-    text-decoration: none;
-    color: inherit;
-    background: #fff;
-    overflow: hidden;
-    box-shadow: 0 5px 15px rgba(0,0,0,.15);
-    object-fit: cover;
-    margin: auto 5rem auto 5rem;
-    border-radius: 2rem;
-}
-.animal-collection {
-    max-width: 900px;
-    margin: 4rem auto;
-    text-align: center;
-    gap: 2rem;
-}
-
-.animal-collection img {
-    width: 100%;
-    max-width: 800px;
-    height: 400px;
-    object-fit: cover;
-    display:block;
-    border-radius: 12px;
-    
-    
-
-}
-
-.animals h2 {
-    margin: 1rem 0;
-}
-
-.animal-collection p {
-    max-width: 700px;
-    margin: 0 auto 1.5rem;
-    
-}
 
 
 footer {
