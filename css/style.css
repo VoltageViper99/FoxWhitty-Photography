@@ -303,6 +303,11 @@ header{
 
 }
 
+.h2about{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
 .socialsi {
     color: white;
     font-size: 2rem;
