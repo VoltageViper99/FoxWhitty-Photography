@@ -56,7 +56,7 @@ body {
     background-image:
         linear-gradient(rgba(0,0,0,.45),
                         rgba(0,0,0,.45)),
-        url("../galleries/hero.webp");
+        url("../images/hero/hero.webp");
 
     background-size: cover;
 
@@ -189,6 +189,27 @@ body {
     gap: 2rem;
 }
 
+.index-card{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: inherit;
+    background: #fff;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,.15);
+    transition: transform .2s ease;
+}
+
+.index-card img{
+    width: 100%;
+    aspect-ratio: 1 / 1;   /* Makes the image square */
+    object-fit: cover;     /* Crops instead of stretching */
+    display: block;
+}
+
+.index-card:hover {
+    transform: translateY(-5px);
+}
 
 .gallery-card {
     display: flex;
@@ -218,6 +239,12 @@ body {
     padding: 0 1rem;
 }
 
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+
+}
 
 
 footer {
