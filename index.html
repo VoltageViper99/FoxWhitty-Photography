@@ -4,8 +4,7 @@
 <head>
 
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>FoxWhitty Photography</title>
 
@@ -16,13 +15,16 @@
 
 <body>
 
-<header>
+    <header>
 
-    <nav class="navbar">
+        <nav class="navbar">
 
             <a href="index.html">
                 <img src="images/logo.webp" class="logo" alt="FoxWhitty Photography Logo">
             </a>
+            <button class="hamburger" id="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </button>
             <ul>
 
                 <li><a href="index.html">Home</a></li>
@@ -41,114 +43,112 @@
                 <li><a href="about.html">About</a></li>
 
                 <li><a href="contact.html">Contact</a></li>
-                
+
             </ul>
 
         </nav>
 
-</header>
+    </header>
 
-<section class="hero">
+    <section class="hero">
 
-    <div class="hero-content">
+        <div class="hero-content">
 
-        <h1>FoxWhitty Photography</h1>
+            <h1>FoxWhitty Photography</h1>
+
+            <p>
+                Capturing the Beauty of Tasmania,
+                One Photo at a Time
+            </p>
+
+            <a href="./gallery.html" class="button">
+                View Gallery
+            </a>
+
+        </div>
+
+    </section>
+
+    <section class="about">
+
+        <h2>Welcome</h2>
 
         <p>
-            Capturing the Beauty of Tasmania,
-            One Photo at a Time
+
+            We are a mother-and-son photography team
+            passionate about capturing Tasmania's
+            incredible landscapes, wildlife, motorsport,
+            and the moments that make every scene unique.
+
         </p>
 
-        <a href="./gallery.html" class="button">
-            View Gallery
-        </a>
+    </section>
 
-    </div>
+    <section class="categories">
 
-</section>
+        <h2>Explore Our Photography</h2>
 
-<section class="about">
+        <div class="cards">
 
-    <h2>Welcome</h2>
+            <a href="./galleries/beaches.html" class="index-card">
 
-    <p>
+                <img src="images/cards/index/beach-cover.webp" alt="Beach">
 
-        We are a mother-and-son photography team
-        passionate about capturing Tasmania's
-        incredible landscapes, wildlife, motorsport,
-        and the moments that make every scene unique.
-
-    </p>
-
-</section>
-
-<section class="categories">
-
-    <h2>Explore Our Photography</h2>
-
-    <div class="cards">
-
-        <a href="./galleries/beaches.html" class="index-card">
-
-            <img src="images/cards/index/beach-cover.webp" alt="Beach">
-
-            <h3>Beach</h3>
+                <h3>Beach</h3>
 
 
-        </a>
+            </a>
 
 
-        <a href="./galleries/nature.html" class="index-card">
+            <a href="./galleries/nature.html" class="index-card">
 
-            <img src="images/cards/index/nature-cover.webp" alt="Nature">
+                <img src="images/cards/index/nature-cover.webp" alt="Nature">
 
-            <h3>Nature</h3>
-
-
-        </a>
-
-        
-
-        <a href="./galleries/plants.html" class="index-card">
-
-            <img src="images/cards/index/plants-cover.webp" alt="Plants">
-
-            <h3>Plants</h3>
-
-            
-
-        </a>
+                <h3>Nature</h3>
 
 
-        
+            </a>
 
-        <a href="./galleries/animals.html" class="index-card">
 
-            <img src="images/cards/index/animals-cover.webp" alt="Animals">
 
-            <h3>Animals</h3>
+            <a href="./galleries/plants.html" class="index-card">
 
-        </a>
+                <img src="images/cards/index/plants-cover.webp" alt="Plants">
 
-    </div>
+                <h3>Plants</h3>
 
-</section>
 
-   <footer>
+
+            </a>
+
+
+
+
+            <a href="./galleries/animals.html" class="index-card">
+
+                <img src="images/cards/index/animals-cover.webp" alt="Animals">
+
+                <h3>Animals</h3>
+
+            </a>
+
+        </div>
+
+    </section>
+
+    <footer>
         <p>Follow Us On Our Socials</p>
-        
 
-         <a href="https://www.facebook.com/profile.php?id=100060474982043"
-         class="socialsf">
-        <i class="fa-brands fa-facebook"></i>
+
+        <a href="https://www.facebook.com/profile.php?id=100060474982043" class="socialsf">
+            <i class="fa-brands fa-facebook"></i>
         </a>
 
 
-        <a href="https://www.instagram.com/foxwhitty_photography/" 
-            class="socialsi">
+        <a href="https://www.instagram.com/foxwhitty_photography/" class="socialsi">
             <i class="fa-brands fa-instagram"></i>
         </a>
-        
+
 
         <p>&copy; 2026 FoxWhitty Photography </p>
         <br>
@@ -156,11 +156,11 @@
         <p>All photographs and website content are copyright of FoxWhitty Photography. All rights reserved</p>
         <br>
         <p>Based in Tasmania, Australia</p>
-        
-        
+
+
 
     </footer>
-
+    <script src="js/menu.js"></script>
 </body>
 
 </html>
