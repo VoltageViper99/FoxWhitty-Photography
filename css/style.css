@@ -519,27 +519,18 @@ footer {
         display: block;
     }
 
-    #nav-menu {
+    .navbar > ul {
         display: none;
         flex-direction: column;
         position: absolute;
-
-        top: 90px;
+        top: 100%;
         left: 0;
-
         width: 100%;
-
         background: #000;
-
         padding: 20px 0;
-        text-align: center;
     }
 
-    #nav-menu.active {
+    .navbar > ul.active {
         display: flex;
-    }
-
-    .navbar {
-        position: relative;
     }
 }
