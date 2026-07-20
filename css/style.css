@@ -11,11 +11,11 @@ body {
 
 }
 
-header{
+header {
 
     background-color: rgb(0, 0, 0);
 
-   
+
 }
 
 .navbar {
@@ -26,7 +26,9 @@ header{
 
     align-items: center;
 
-    
+    padding-left: 10px;
+
+    padding-right: 10px;
 
 }
 
@@ -57,7 +59,7 @@ header{
 
     background: #ffffff;
     border-radius: 8px;
-    box-shadow: 0 5px 15px rgba(0,0,0,.2);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .2);
 }
 
 /* Links */
@@ -78,7 +80,7 @@ header{
     display: block;
 }
 
-.navbar > ul {
+.navbar>ul {
 
     display: flex;
 
@@ -102,8 +104,8 @@ header{
     height: 80vh;
 
     background-image:
-        linear-gradient(rgba(0,0,0,.45),
-                        rgba(0,0,0,.45)),
+        linear-gradient(rgba(0, 0, 0, .45),
+            rgba(0, 0, 0, .45)),
         url("../images/hero/hero.webp");
 
     background-size: cover;
@@ -166,7 +168,7 @@ header{
 
 .about {
 
-    width: min(600px,90%);
+    width: min(600px, 90%);
 
     margin: 80px auto;
 
@@ -176,7 +178,7 @@ header{
 
 }
 
-.about h2{
+.about h2 {
     font-size: 34px;
 
     letter-spacing: 0.5px;
@@ -187,16 +189,17 @@ header{
 
     letter-spacing: 0.5px;
 }
+
 .categories {
 
-    width: min(700px,90%);
+    width: min(700px, 90%);
 
     margin: 80px auto;
 
     line-height: 1.6;
 
     letter-spacing: 0.5px;
-    
+
 
 }
 
@@ -215,11 +218,11 @@ header{
 .categories h3 {
 
     font-size: 1.8rem;
-    
-    margin-bottom: 20px;
-  
 
-    
+    margin-bottom: 20px;
+
+
+
 
 }
 
@@ -233,28 +236,30 @@ header{
 
 .cards {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
 }
 
-.index-card{
+.index-card {
     display: flex;
     flex-direction: column;
     text-decoration: none;
     color: inherit;
     background: #fff;
     overflow: hidden;
-    box-shadow: 0 5px 15px rgba(0,0,0,.15);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .15);
     transition: transform .2s ease;
     border-radius: 10px;
     text-align: center;
-    
+
 }
 
-.index-card img{
+.index-card img {
     width: 100%;
-    aspect-ratio: 1 / 1;   /* Makes the image square */
-    object-fit: cover;     /* Crops instead of stretching */
+    aspect-ratio: 1 / 1;
+    /* Makes the image square */
+    object-fit: cover;
+    /* Crops instead of stretching */
     display: block;
     margin-bottom: 10px;
 }
@@ -264,17 +269,18 @@ header{
 }
 
 
-.photo-collection h1{
+.photo-collection h1 {
     font-size: 38px;
     letter-spacing: 2px;
-    
+
 }
 
-.photo-collection p{
+.photo-collection p {
     font-size: 20px;
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
+
 .cards {
     display: flex;
     flex-direction: column;
@@ -282,11 +288,12 @@ header{
     color: inherit;
     background: #fff;
     overflow: hidden;
-    box-shadow: 0 5px 15px rgba(0,0,0,.15);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .15);
     object-fit: cover;
     margin: auto 5rem auto 5rem;
     border-radius: 2rem;
 }
+
 .photo-collection {
     max-width: 900px;
     margin: 4rem auto;
@@ -299,10 +306,10 @@ header{
     max-width: 800px;
     height: 400px;
     object-fit: cover;
-    display:block;
+    display: block;
     border-radius: 12px;
-    
-    
+
+
 
 }
 
@@ -313,7 +320,7 @@ header{
 .photo-collection p {
     max-width: 700px;
     margin: 0 auto 1.5rem;
-    
+
 }
 
 .gallery-button {
@@ -345,7 +352,7 @@ collection-cards {
     color: inherit;
     background: #fff;
     overflow: hidden;
-    box-shadow: 0 5px 15px rgba(0,0,0,.15);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .15);
     border-radius: 10px;
     text-align: center;
 }
@@ -356,28 +363,29 @@ collection-cards {
     margin: 4rem auto;
     text-align: center;
     gap: 2rem;
-    
+
 }
 
 .collection-photos img {
     width: 100%;
     max-width: 1000px;
     height: auto;
-    object-fit:cover;
-    display:block;
+    object-fit: cover;
+    display: block;
     border-radius: 12px;
     margin-bottom: 5rem;
-    
+
 
 }
-.collection-photos h1{
+
+.collection-photos h1 {
     font-size: 38px;
     letter-spacing: 2px;
     margin-bottom: 4rem;
-    
+
 }
 
-.collection-photos p{
+.collection-photos p {
     font-size: 20px;
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -392,11 +400,11 @@ collection-cards {
 .collection-photos p {
     max-width: 700px;
     margin: 0 auto 1.5rem;
-    
+
 }
 
 
-.h2about{
+.h2about {
     text-align: center;
     margin-bottom: 5px;
 }
@@ -433,36 +441,38 @@ collection-cards {
 
 
 /* Style inputs */
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
 }
 
 input[type=submit] {
-  background-color: #04AA6D;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  cursor: pointer;
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+    background-color: #45a049;
 }
 
-.contact-heading h2{
-text-align: center;
-display: flex;
-justify-content: center;
-padding-top: 20px;
-   
+.contact-heading h2 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+
 }
 
-.contact-heading p{
+.contact-heading p {
     text-align: center;
     justify-content: center;
     padding-bottom: 20px;
@@ -470,20 +480,20 @@ padding-top: 20px;
 
 /* Style the container/contact section */
 .contact-box {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-bottom: 10px;
-  margin-top: 10px;
- 
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
 }
 
 
-.contact-box p{
+.contact-box p {
     margin-bottom: 10px;
     margin-top: 10px;
 }
@@ -515,7 +525,7 @@ footer {
 
 @media (max-width: 768px) {
 
-      .navbar {
+    .navbar {
         position: relative;
     }
 
@@ -524,7 +534,7 @@ footer {
         display: block;
     }
 
-    .nav-menu > ul {
+    #nav-menu {
         display: none;
         flex-direction: column;
         position: absolute;
@@ -533,9 +543,10 @@ footer {
         width: 100%;
         background: #000;
         padding: 20px 0;
+        z-index: 1000;
     }
 
-    .nav-menu > ul.active {
+    #nav-menu.active {
         display: flex;
     }
 }
