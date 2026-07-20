@@ -25,4 +25,4 @@ A modern, responsive photography website built using HTML, CSS and JavaScript.
 
 ## Status
 
-🚧 Currently under development.
+Released
